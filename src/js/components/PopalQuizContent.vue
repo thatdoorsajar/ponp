@@ -1,11 +1,11 @@
 <template>
     <div class="has-text-centered">
         <div v-show="!eagerBeaver">
-            <img src="C:/Code/popeornopope/public/img/francis-thumbs-up.jpg"
+            <img src="/img/francis-thumbs-up.jpg"
                 alt="Pope Francis Thumbs Up"
                 height="300px"
                 v-show="!flippinIt">
-            <img src="C:/Code/popeornopope/public/img/francis-flippin-bird.jpg"
+            <img src="/img/francis-flippin-bird.jpg"
                 alt="Pope Francis Flippin It"
                 height="300px"
                 v-show="flippinIt">
@@ -16,7 +16,7 @@
             </section>
         </div>
         <div v-show="eagerBeaver">
-            <img src="C:/Code/popeornopope/public/img/francis-very-happy.jpg"
+            <img src="/img/francis-very-happy.jpg"
                 alt="Pope Francis Thumbs Up"
                 height="300px"
                 v-show="!flippinIt">
