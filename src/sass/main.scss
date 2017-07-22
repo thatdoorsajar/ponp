@@ -1,0 +1,15 @@
+// Google font imports
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+// 1. Import the initial variables
+@import "node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set some override variables
+@import 'partials/variables';
+
+// 3. Import the rest of Bulma
+@import "node_modules/bulma/bulma";
+
+// 4. Custom sass
+@import "partials/type",
+		"partials/utils";

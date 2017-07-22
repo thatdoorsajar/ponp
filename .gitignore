@@ -1,0 +1,7 @@
+/vendor
+/node_modules
+/.sass-cache
+.DS_store
+.DS_Store
+._.DS_Store
+.bash_history
