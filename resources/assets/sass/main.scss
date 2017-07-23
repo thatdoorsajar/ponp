@@ -11,5 +11,6 @@
 @import "node_modules/bulma/bulma";
 
 // 4. Custom sass
-@import "partials/type",
+@import "partials/imgs",
+		"partials/type",
 		"partials/utils";
